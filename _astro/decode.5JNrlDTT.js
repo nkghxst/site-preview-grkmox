@@ -1,0 +1,1 @@
+const e="█▓▒░#%&@$*+=-:.";function s(o,a,c=Math.random){const l=Math.min(1,Math.max(0,a)),r=Math.floor(l*o.length);let n="";for(let t=0;t<o.length;t++){const h=o.charAt(t);n+=t<r||h===" "?h:e.charAt(Math.floor(c()*e.length))}return n}export{s as d};
